@@ -18,3 +18,5 @@ for file in os.listdir(source_folder):
         print(f"Moved: {file}")
 
 print("All .jpg files have been moved successfully!")
+
+print("hello")
