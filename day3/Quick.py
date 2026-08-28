@@ -2,7 +2,6 @@ nums = [4, 1, 7, 6, 3, 2, 8]
 
 def partition(nums, low, high):
     pivot = nums[low]
-
     i = low
     j = high
 
@@ -26,7 +25,6 @@ def Quick_sort(nums, low, high):
 
     if low < high:
         p_ind = partition(nums, low, high)
-
         Quick_sort(nums, low, p_ind - 1)
         Quick_sort(nums, p_ind + 1, high)
 
