@@ -7,6 +7,7 @@ j = 0
 for k in freq_map:
     num[j] = k
     j += 1
+print(j)
 print("Unique values:", num[:j])
 
 # num = [1,1,1,2,3,3,4,4,5,6,6,7,7,7,]
